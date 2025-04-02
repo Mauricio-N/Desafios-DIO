@@ -17,7 +17,7 @@ public class Banco {
       showMenu();
       System.out.print("*** Escolha a opção desejada: ");
       int temp = Integer.parseInt(entrada.nextLine());
-
+      
       switch (temp) {
         case 1 -> clienteArthur.consultarSaldo();
         case 2 -> clienteArthur.consultarChequeEspecial();
